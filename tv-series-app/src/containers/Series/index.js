@@ -14,9 +14,11 @@ class Series extends Component {
     this.setState({ seriesName: e.target.value, isFetching: true });
     fetch(`http://api.tvmaze.com/search/shows?q=${e.target.value}`).then(
       response => {
-        response
-          .json()
-          .then(json => this.setState({ series: json, isFetching: false }));
+        if (response.status !== 429) {
+          response
+            .json()
+            .then(json => this.setState({ series: json, isFetching: false }));
+        }
       }
     );
   };
