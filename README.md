@@ -14,7 +14,7 @@ A simple search engine for TV Series built with React
 ### Built With
 
 - [React](https://reactjs.org/) - JavaScript library for building UI
-- [TvMaze API](https://www.tvmaze.com/)
+- [TvMaze API](https://www.tvmaze.com/api) - API to retrieve TV series information
 - [Netlify](https://www.netlify.com/) - Project deployment
 
 ### Resources
