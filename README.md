@@ -5,11 +5,11 @@
 
 ### Description
 
-A React search engine for TV Series
+A simple search engine for TV Series built with React
 
 ### How to use
 
-[Pomodoro Web APP](https://frosty-darwin-726734.netlify.com/)
+[React-TVSeries](https://frosty-darwin-726734.netlify.com/)
 
 ### Built With
 
