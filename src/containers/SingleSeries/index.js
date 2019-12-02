@@ -8,9 +8,11 @@ class SingleSeries extends Component {
 
   componentDidMount() {
     const { id } = this.props.match.params;
-    fetch(`http://api.tvmaze.com/shows/${id}?embed=episodes`).then(response => {
-      response.json().then(json => this.setState({ show: json }));
-    });
+    fetch(`https://api.tvmaze.com/shows/${id}?embed=episodes`).then(
+      response => {
+        response.json().then(json => this.setState({ show: json }));
+      }
+    );
   }
   render() {
     const { show } = this.state;

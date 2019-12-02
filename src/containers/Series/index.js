@@ -12,7 +12,7 @@ class Series extends Component {
 
   onSeriesInputChange = e => {
     this.setState({ seriesName: e.target.value, isFetching: true });
-    fetch(`http://api.tvmaze.com/search/shows?q=${e.target.value}`).then(
+    fetch(`https://api.tvmaze.com/search/shows?q=${e.target.value}`).then(
       response => {
         if (response.status !== 429) {
           response
