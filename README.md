@@ -9,7 +9,7 @@ A simple search engine for TV Series built with React
 
 ### How to use
 
-[React-TVSeries](https://friendly-cori-021375.netlify.com/)
+[React-TVSeries](https://tvshows-api.netlify.com/)
 
 ### Built With
 
